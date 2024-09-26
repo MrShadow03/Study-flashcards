@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcards</title>
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/simplebar@latest/dist/simplebar.css"/>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- Flashcard Categories -->
+  <div class="category">
+    <h2 class="category-title">Middle English Literature</h2>
+     <!-- Geoffrey Chaucer -->
+    <div class="flashcard-container">
+      <div class="flashcard">
+        <div class="front">
+            <img src="./Images/geoffrey-chaucer.jpg" alt="" class="card-image">
+            <div class="card-container">
+                <h3 class="title">Geoffrey Chaucer</h3>
+                <p class="subtitle">1343-1400</p>
+            </div>
+        </div>
+        <div class="back">
+            <div data-simplebar class="card-container card-container--back">
+                <h3 class="section-title">Books</h3>
+                <div class="content">
+                    <p class="content-title">The Canterbury Tales</p>
+                    <p class="content-description">[Poems] A collection of 24 stories.</p>
+                </div>
+                <div class="content">
+                    <p class="content-title">Troilus and Criseyde</p>
+                    <p class="content-description">[Poem] Hate, Love, and Betrayal.</p>
+                </div>
+                <div class="content">
+                    <p class="content-title">The Parliament of Fowls</p>
+                    <p class="content-description">[Poem] A dream-vision poem.</p>
+                </div>
+                <div class="content">
+                    <p class="content-title">The House of Fame</p>
+                    <p class="content-description">[Poem] A dream-vision poem.</p>
+                </div>
+                <div class="content">
+                    <p class="content-title">The Book of the Duchess</p>
+                    <p class="content-description">[Poem] A dream-vision poem.</p>
+                </div>
+                <div class="content">
+                    <p class="content-title">The Legend of Good Women</p>
+                    <p class="content-description">[Poem] A dream-vision poem.</p>
+                </div>
+                <h3 class="section-title">Quotes</h3>
+                <div class="content">
+                    <i class="content-title fw-normal font-serif">"Time and tide waits for no one."</i>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- William Langland -->
+    <div class="flashcard-container">
+      <div class="flashcard">
+        <div class="front">
+            <img src="./Images/William Langland.jpeg" alt="" class="card-image">
+            <div class="card-container">
+                <h3 class="title">William Langland</h3>
+                <p class="subtitle">1332-1386</p>
+            </div>
+        </div>
+        <div class="back">
+            <div data-simplebar class="card-container card-container--back">
+                <h3 class="section-title">Books</h3>
+                <div class="content">
+                    <p class="content-title">Piers Plowman</p>
+                    <div class="content-description">
+                        <ul>
+                            <li>[Poem, Satire and Allegory] A Middle English alliterative verse.</li>
+                            <li>First <strong>Satire</strong> - in English</li>
+                        </ul>
+                    </div>
+                </div>
+                <h3 class="section-title">Quotes</h3>
+                <div class="content">
+                    <i class="content-title fw-normal font-serif">"Who will bell the cat?"</i>
+                </div>
+            </div>
+        </div>
+      </div>
+            
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/simplebar/6.2.7/simplebar.min.js" integrity="sha512-NkLfoy5pkmAKUxk/OXl9vi1PDSFnEEJ3bDFdX0ln1L0pto6jM7On0lLsjhNC62i2ifyXhPWjPpcGEXawBfErtQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
