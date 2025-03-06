@@ -1,0 +1,249 @@
+{
+  "writers": [
+    {
+      "name": "Beowulf (Anonymous)",
+      "id": "beowulf",
+      "works": ["Beowulf"]
+    },
+    {
+      "name": "Caedmon",
+      "id": "caedmon",
+      "works": ["Caedmon's Hymn"]
+    },
+    {
+      "name": "Geoffrey Chaucer",
+      "id": "chaucer",
+      "works": ["The Canterbury Tales"]
+    },
+    {
+      "name": "William Langland",
+      "id": "langland",
+      "works": ["Piers Plowman"]
+    },
+    {
+      "name": "Sir Thomas Malory",
+      "id": "malory",
+      "works": ["Le Morte d'Arthur"]
+    },
+    {
+      "name": "Julian of Norwich",
+      "id": "julian",
+      "works": ["Revelations of Divine Love"]
+    },
+    {
+      "name": "The Pearl Poet (Anonymous)",
+      "id": "pearl",
+      "works": ["Pearl", "Sir Gawain and the Green Knight"]
+    },
+    {
+      "name": "William Shakespeare",
+      "id": "shakespeare",
+      "works": ["Hamlet", "Macbeth", "Romeo and Juliet"]
+    },
+    {
+      "name": "Edmund Spenser",
+      "id": "spenser",
+      "works": ["The Faerie Queene", "Amoretti"]
+    },
+    {
+      "name": "John Milton",
+      "id": "milton",
+      "works": ["Paradise Lost", "Paradise Regained", "Lycidas"]
+    },
+    {
+      "name": "Christopher Marlowe",
+      "id": "marlowe",
+      "works": ["Doctor Faustus", "Tamburlaine"]
+    },
+    {
+      "name": "Ben Jonson",
+      "id": "jonson",
+      "works": ["Volpone", "The Alchemist"]
+    },
+    {
+      "name": "Sir Philip Sidney",
+      "id": "sidney",
+      "works": ["Astrophel and Stella", "The Countess of Pembroke's Arcadia"]
+    },
+    {
+      "name": "Thomas Wyatt",
+      "id": "wyatt",
+      "works": ["Whoso List to Hunt", "They Flee from Me"]
+    },
+    {
+      "name": "John Donne",
+      "id": "donne",
+      "works": ["Holy Sonnets", "The Flea"]
+    },
+    {
+      "name": "Andrew Marvell",
+      "id": "marvell",
+      "works": ["To His Coy Mistress", "The Garden"]
+    },
+    {
+      "name": "George Herbert",
+      "id": "herbert",
+      "works": ["The Temple", "Easter Wings"]
+    },
+    {
+      "name": "John Dryden",
+      "id": "dryden",
+      "works": ["Absalom and Achitophel", "Mac Flecknoe"]
+    },
+    {
+      "name": "Robert Herrick",
+      "id": "herrick",
+      "works": ["To the Virgins, to Make Much of Time", "Hesperides"]
+    },
+    {
+      "name": "Jonathan Swift",
+      "id": "swift",
+      "works": ["Gulliver's Travels", "A Modest Proposal"]
+    },
+    {
+      "name": "Alexander Pope",
+      "id": "pope",
+      "works": ["The Rape of the Lock", "The Dunciad", "An Essay on Criticism"]
+    },
+    {
+      "name": "Samuel Johnson",
+      "id": "johnson",
+      "works": ["A Dictionary of the English Language", "The Lives of the Poets"]
+    },
+    {
+      "name": "Henry Fielding",
+      "id": "fielding",
+      "works": ["Tom Jones", "Joseph Andrews"]
+    },
+    {
+      "name": "Laurence Sterne",
+      "id": "sterne",
+      "works": ["The Life and Opinions of Tristram Shandy, Gentleman"]
+    },
+    {
+      "name": "Daniel Defoe",
+      "id": "defoe",
+      "works": ["Robinson Crusoe", "Moll Flanders"]
+    },
+    {
+      "name": "William Wordsworth",
+      "id": "wordsworth",
+      "works": ["Lines Composed a Few Miles Above Tintern Abbey", "The Prelude"]
+    },
+    {
+      "name": "Samuel Taylor Coleridge",
+      "id": "coleridge",
+      "works": ["The Rime of the Ancient Mariner", "Kubla Khan"]
+    },
+    {
+      "name": "Lord Byron",
+      "id": "byron",
+      "works": ["Don Juan", "Childe Harold's Pilgrimage"]
+    },
+    {
+      "name": "Percy Bysshe Shelley",
+      "id": "shelley",
+      "works": ["Ozymandias", "Prometheus Unbound", "To a Skylark"]
+    },
+    {
+      "name": "John Keats",
+      "id": "keats",
+      "works": ["Ode to a Nightingale", "Ode on a Grecian Urn", "To Autumn"]
+    },
+    {
+      "name": "Jane Austen",
+      "id": "austen",
+      "works": ["Pride and Prejudice", "Sense and Sensibility", "Emma"]
+    },
+    {
+      "name": "Charles Dickens",
+      "id": "dickens",
+      "works": ["A Tale of Two Cities", "Great Expectations", "David Copperfield"]
+    },
+    {
+      "name": "George Eliot",
+      "id": "eliot",
+      "works": ["Middlemarch", "Silas Marner", "The Mill on the Floss"]
+    },
+    {
+      "name": "Thomas Hardy",
+      "id": "hardy",
+      "works": ["Tess of the d'Urbervilles", "Far from the Madding Crowd", "Jude the Obscure"]
+    },
+    {
+      "name": "Alfred, Lord Tennyson",
+      "id": "tennyson",
+      "works": ["In Memoriam A.H.H.", "The Charge of the Light Brigade", "Ulysses"]
+    },
+    {
+      "name": "Robert Browning",
+      "id": "browning",
+      "works": ["The Ring and the Book", "My Last Duchess", "Childe Roland to the Dark Tower Came"]
+    },
+    {
+      "name": "Elizabeth Barrett Browning",
+      "id": "ebrowning",
+      "works": ["Sonnets from the Portuguese", "Aurora Leigh"]
+    },
+    {
+      "name": "Emily Brontë",
+      "id": "emily",
+      "works": ["Wuthering Heights"]
+    },
+    {
+      "name": "Charlotte Brontë",
+      "id": "charlotte",
+      "works": ["Jane Eyre"]
+    },
+    {
+      "name": "W.B. Yeats",
+      "id": "yeats",
+      "works": ["The Second Coming", "Sailing to Byzantium"]
+    },
+    {
+      "name": "T.S. Eliot",
+      "id": "eliot-ts",
+      "works": ["The Waste Land", "Four Quartets", "The Love Song of J. Alfred Prufrock"]
+    },
+    {
+      "name": "Virginia Woolf",
+      "id": "woolf",
+      "works": ["Mrs. Dalloway", "To the Lighthouse", "A Room of One's Own"]
+    },
+    {
+      "name": "James Joyce",
+      "id": "joyce",
+      "works": ["Ulysses", "A Portrait of the Artist as a Young Man", "Dubliners"]
+    },
+    {
+      "name": "D.H. Lawrence",
+      "id": "lawrence",
+      "works": ["Sons and Lovers", "Women in Love", "Lady Chatterley's Lover"]
+    },
+    {
+      "name": "George Orwell",
+      "id": "orwell",
+      "works": ["1984", "Animal Farm", "Homage to Catalonia"]
+    },
+    {
+      "name": "Graham Greene",
+      "id": "greene",
+      "works": ["The Power and the Glory", "The Heart of the Matter", "The Quiet American"]
+    },
+    {
+      "name": "Dylan Thomas",
+      "id": "thomas",
+      "works": ["Do Not Go Gentle into That Good Night", "Under Milk Wood"]
+    },
+    {
+      "name": "Samuel Beckett",
+      "id": "beckett",
+      "works": ["Waiting for Godot", "Endgame", "Krapp's Last Tape"]
+    },
+    {
+      "name": "Harold Pinter",
+      "id": "pinter",
+      "works": ["The Homecoming", "The Birthday Party", "The Dumb Waiter"]
+    }
+  ]
+}

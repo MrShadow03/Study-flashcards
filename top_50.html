@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 50 English Literature Figures</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #2c3e50;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 250px;
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            height: 100vh;
+            position: sticky;
+            top: 0;
+            overflow-y: auto;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .sidebar h2 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #c3cfe2;
+        }
+
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .sidebar a:hover {
+            background-color: #34495e;
+            transform: scale(1.05);
+        }
+
+        /* Main content */
+        .content {
+            flex-grow: 1;
+            padding: 40px;
+            height: 100vh;
+            overflow-y: auto;
+            background: white;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            box-shadow: -15px 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 36px;
+            text-align: center;
+            margin-bottom: 50px;
+            color: #34495e;
+            font-family: 'Georgia', serif;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-top: 0;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #34495e;
+            color: #34495e;
+            font-family: 'Merriweather', serif;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 40px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            font-size: 18px;
+            color: #2c3e50;
+        }
+
+        section {
+            margin-bottom: 50px;
+            padding: 20px;
+            background: #ecf0f1;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
+        }
+
+        section:hover {
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            transform: translateY(-10px);
+        }
+
+        /* Smooth scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2 class="sidebar-title">Writers</h2>
+        <ul id="writer-list">
+
+        </ul>
+    </div>
+
+    <!-- Main content -->
+    <div class="content">
+        <h1>Top 50 English Literature Figures</h1>
+        <div id="writer-sections">
+            <!-- <section id="beowulf">
+                <h2>Beowulf (Anonymous)</h2>
+                <p><strong>Best work:</strong> Beowulf</p>
+            </section>
+    
+            <section id="caedmon">
+                <h2>Caedmon</h2>
+                <p><strong>Best work:</strong> Caedmon's Hymn</p>
+            </section>
+    
+            <section id="chaucer">
+                <h2>Geoffrey Chaucer</h2>
+                <p><strong>Best work:</strong> The Canterbury Tales</p>
+            </section>
+    
+            <section id="langland">
+                <h2>William Langland</h2>
+                <p><strong>Best work:</strong> Piers Plowman</p>
+            </section>
+    
+            <section id="malory">
+                <h2>Sir Thomas Malory</h2>
+                <p><strong>Best work:</strong> Le Morte d'Arthur</p>
+            </section>
+    
+            <section id="julian">
+                <h2>Julian of Norwich</h2>
+                <p><strong>Best work:</strong> Revelations of Divine Love</p>
+            </section>
+    
+            <section id="pearl">
+                <h2>The Pearl Poet (Anonymous)</h2>
+                <p><strong>Best work:</strong> Sir Gawain and the Green Knight</p>
+            </section>
+            <section id="shakespeare">
+                <h2>William Shakespeare</h2>
+                <p><strong>Best works:</strong> Hamlet, Macbeth, Romeo and Juliet</p>
+            </section>
+    
+            <section id="spenser">
+                <h2>Edmund Spenser</h2>
+                <p><strong>Best work:</strong> The Faerie Queene</p>
+            </section>
+    
+            <section id="milton">
+                <h2>John Milton</h2>
+                <p><strong>Best work:</strong> Paradise Lost</p>
+            </section>
+    
+            <section id="marlowe">
+                <h2>Christopher Marlowe</h2>
+                <p><strong>Best work:</strong> Doctor Faustus</p>
+            </section>
+    
+            <section id="jonson">
+                <h2>Ben Jonson</h2>
+                <p><strong>Best works:</strong> Volpone, The Alchemist</p>
+            </section>
+    
+            <section id="sidney">
+                <h2>Sir Philip Sidney</h2>
+                <p><strong>Best work:</strong> Astrophel and Stella</p>
+            </section>
+    
+            <section id="wyatt">
+                <h2>Thomas Wyatt</h2>
+                <p><strong>Best works:</strong> They Flee from Me, Whoso List to Hunt</p>
+            </section>
+    
+            <section id="donne">
+                <h2>John Donne</h2>
+                <p><strong>Best works:</strong> The Flea, Holy Sonnets</p>
+            </section>
+    
+            <section id="marvell">
+                <h2>Andrew Marvell</h2>
+                <p><strong>Best work:</strong> To His Coy Mistress</p>
+            </section>
+    
+            <section id="herbert">
+                <h2>George Herbert</h2>
+                <p><strong>Best work:</strong> The Temple</p>
+            </section>
+    
+            <section id="dryden">
+                <h2>John Dryden</h2>
+                <p><strong>Best works:</strong> Absalom and Achitophel, Mac Flecknoe</p>
+            </section>
+    
+            <section id="herrick">
+                <h2>Robert Herrick</h2>
+                <p><strong>Best work:</strong> To the Virgins, to Make Much of Time</p>
+            </section>
+    
+            <section id="swift">
+                <h2>Jonathan Swift</h2>
+                <p><strong>Best works:</strong> Gulliver's Travels, A Modest Proposal</p>
+            </section>
+    
+            <section id="pope">
+                <h2>Alexander Pope</h2>
+                <p><strong>Best works:</strong> The Rape of the Lock, The Dunciad</p>
+            </section>
+    
+            <section id="johnson">
+                <h2>Samuel Johnson</h2>
+                <p><strong>Best works:</strong> A Dictionary of the English Language, Lives of the Poets</p>
+            </section>
+    
+            <section id="fielding">
+                <h2>Henry Fielding</h2>
+                <p><strong>Best work:</strong> Tom Jones</p>
+            </section>
+    
+            <section id="sterne">
+                <h2>Laurence Sterne</h2>
+                <p><strong>Best work:</strong> Tristram Shandy</p>
+            </section>
+    
+            <section id="defoe">
+                <h2>Daniel Defoe</h2>
+                <p><strong>Best works:</strong> Robinson Crusoe, Moll Flanders</p>
+            </section>
+    
+            <section id="wordsworth">
+                <h2>William Wordsworth</h2>
+                <p><strong>Best works:</strong> Lyrical Ballads, The Prelude</p>
+            </section>
+    
+            <section id="coleridge">
+                <h2>Samuel Taylor Coleridge</h2>
+                <p><strong>Best work:</strong> The Rime of the Ancient Mariner</p>
+            </section>
+    
+            <section id="byron">
+                <h2>Lord Byron</h2>
+                <p><strong>Best works:</strong> Don Juan, Childe Harold's Pilgrimage</p>
+            </section>
+    
+            <section id="shelley">
+                <h2>Percy Bysshe Shelley</h2>
+                <p><strong>Best works:</strong> Ode to the West Wind, Prometheus Unbound</p>
+            </section>
+    
+            <section id="keats">
+                <h2>John Keats</h2>
+                <p><strong>Best works:</strong> Ode to a Nightingale, To Autumn</p>
+            </section>
+    
+            <section id="austen">
+                <h2>Jane Austen</h2>
+                <p><strong>Best works:</strong> Pride and Prejudice, Emma</p>
+            </section>
+    
+            <section id="dickens">
+                <h2>Charles Dickens</h2>
+                <p><strong>Best works:</strong> A Tale of Two Cities, Great Expectations</p>
+            </section>
+    
+            <section id="eliot">
+                <h2>George Eliot</h2>
+                <p><strong>Best works:</strong> Middlemarch, The Mill on the Floss</p>
+            </section>
+    
+            <section id="hardy">
+                <h2>Thomas Hardy</h2>
+                <p><strong>Best works:</strong> Tess of the d'Urbervilles, Jude the Obscure</p>
+            </section>
+    
+            <section id="tennyson">
+                <h2>Alfred, Lord Tennyson</h2>
+                <p><strong>Best works:</strong> In Memoriam A.H.H., The Charge of the Light Brigade</p>
+            </section>
+    
+            <section id="browning">
+                <h2>Robert Browning</h2>
+                <p><strong>Best works:</strong> My Last Duchess, The Ring and the Book</p>
+            </section>
+    
+            <section id="ebrowning">
+                <h2>Elizabeth Barrett Browning</h2>
+                <p><strong>Best works:</strong> Sonnets from the Portuguese, Aurora Leigh</p>
+            </section>
+    
+            <section id="emily">
+                <h2>Emily Brontë</h2>
+                <p><strong>Best work:</strong> Wuthering Heights</p>
+            </section>
+    
+            <section id="charlotte">
+                <h2>Charlotte Brontë</h2>
+                <p><strong>Best work:</strong> Jane Eyre</p>
+            </section>
+    
+            <section id="yeats">
+                <h2>W.B. Yeats</h2>
+                <p><strong>Best works:</strong> The Tower, The Second Coming</p>
+            </section>
+    
+            <section id="eliot-ts">
+                <h2>T.S. Eliot</h2>
+                <p><strong>Best works:</strong> The Waste Land, Four Quartets</p>
+            </section>
+    
+            <section id="woolf">
+                <h2>Virginia Woolf</h2>
+                <p><strong>Best works:</strong> Mrs. Dalloway, To the Lighthouse</p>
+            </section>
+    
+            <section id="joyce">
+                <h2>James Joyce</h2>
+                <p><strong>Best works:</strong> Ulysses, A Portrait of the Artist as a Young Man</p>
+            </section>
+    
+            <section id="lawrence">
+                <h2>D.H. Lawrence</h2>
+                <p><strong>Best works:</strong> Sons and Lovers, Women in Love</p>
+            </section>
+    
+            <section id="orwell">
+                <h2>George Orwell</h2>
+                <p><strong>Best works:</strong> 1984, Animal Farm</p>
+            </section>
+    
+            <section id="greene">
+                <h2>Graham Greene</h2>
+                <p><strong>Best works:</strong> The Power and the Glory, The Heart of the Matter</p>
+            </section>
+    
+            <section id="thomas">
+                <h2>Dylan Thomas</h2>
+                <p><strong>Best work:</strong> Do Not Go Gentle into That Good Night</p>
+            </section>
+    
+            <section id="beckett">
+                <h2>Samuel Beckett</h2>
+                <p><strong>Best work:</strong> Waiting for Godot</p>
+            </section>
+    
+            <section id="pinter">
+                <h2>Harold Pinter</h2>
+                <p><strong>Best works:</strong> The Homecoming, The Birthday Party</p>
+            </section> -->
+    
+        </div>
+    </div>
+
+    <script>
+        // Fetch the JSON data and generate the HTML dynamically
+        fetch('./database/top-50.json')
+            .then(response => response.json())
+            .then(data => {
+                const writerList = document.getElementById('writer-list');
+                const writerSections = document.getElementById('writer-sections');
+
+                // Loop through each writer
+                data.writers.forEach((writer, i) => {
+                    // Create a sidebar link for each writer
+                    const listItem = document.createElement('li');
+                    const link = document.createElement('a');
+                    link.href = `#${writer.id}`;
+                    link.textContent = i+1 +'. '+ writer.name;
+                    listItem.appendChild(link);
+                    writerList.appendChild(listItem);
+
+                    // Create a section for each writer
+                    const section = document.createElement('section');
+                    section.id = writer.id;
+                    const heading = document.createElement('h2');
+                    heading.textContent = writer.name;
+                    section.appendChild(heading);
+
+                    // Add the writer's best works
+                    const worksList = document.createElement('ul');
+                    writer.works.forEach(work => {
+                        const workItem = document.createElement('li');
+                        workItem.textContent = '📚 '+work;
+                        worksList.appendChild(workItem);
+                    });
+                    section.appendChild(worksList);
+
+                    // Append the section to the main content
+                    writerSections.appendChild(section);
+                });
+            })
+            .catch(error => console.error('Error loading the writers.json:', error));
+    </script>
+
+</body>
+</html>
